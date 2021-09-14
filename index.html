@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        div.container {
+            width: 900px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 900px;
+            height: 80px;
+            background-color: #6d41bf;
+            /* padding: 30px 0 0 50px; */
+            padding: 10px 30px;
+            color: white;
+        }
+
+        nav h1,
+        nav ul,
+        nav li,
+        nav div.contact-us-button {
+            display: inline-block;
+        }
+
+        nav h1 {
+            margin-right: 30px;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        div.contact-us-button {
+            background-color: transparent;
+            text-align: center;
+            width: 200px;
+            padding: 15px 15px;
+            border-radius: 30px;
+            margin-left: 50px;
+            border: 2px solid white;
+        }
+
+        section.content-header {
+            text-align: center;
+            padding: 60px 0;
+            width: 900px;
+            height: 500px;
+            background-image: linear-gradient(#834cc4, #c06ad5);
+            text-align: center;
+            padding-top: 100px;
+            color: white;
+        }
+
+        .explore-button {
+            width: 200px;
+            background-color: #ffc300;
+            text-align: center;
+            padding: 2px 2px;
+            border-radius: 30px;
+        }
+
+        .content-header p {
+            margin: 20px 0;
+        }
+
+        div.header-text,
+        div.header-image {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            vertical-align: middle;
+            text-align: left;
+            margin: 0 50px;
+        }
+
+        div.header-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        section.gallery {
+            /* text-align: center; */
+            padding: 60px 0;
+            width: 900px;
+            height: auto;
+            background-color: white;
+            text-align: left;
+            padding-top: 100px;
+        }
+
+        div.gallery-title,
+        p.gallery-para {
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+            vertical-align: bottom;
+            margin-left: 50px;
+        }
+
+        .gallery-content li {
+            display: inline-block;
+            margin: 10px 0;
+            margin-left: 50px;
+            text-align: left;
+
+        }
+
+        div.gallery-image {
+            display: inline-block;
+            width: 250px;
+            height: 200px;
+            margin: 0 15px;
+            text-align: center;
+        }
+
+        div.gallery-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        section.about {
+            background-color: #3023ae;
+            background-image: url(images/about_bg.png);
+            background-size: cover;
+            width: 900px;
+            height: auto;
+            color: white;
+        }
+
+        .about-image {
+            display: inline-block;
+            height: 250px;
+            text-align: center;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            margin-top: 100px;
+            margin-left: 30px;
+        }
+
+        .about-text {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            vertical-align: middle;
+            margin-left: 200px;
+        }
+
+        .about-text h1 {
+            margin: 10px 0;
+        }
+
+        section.option {
+            width: 900px;
+            height: auto;
+            background-color: #dfd9d9;
+        }
+
+        .option-header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .option-content {
+            text-align: center;
+            padding-bottom: 70px;
+        }
+
+        div.option-one {
+            width: 220px;
+            height: 200px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: white;
+            margin: 5px;
+            padding: 20px;
+            display: inline-block;
+        }
+
+        section.testimonial {
+            width: 900px;
+            height: 500px;
+            background-color: white;
+        }
+
+        .testimonial-header {
+            text-align: center;
+            padding-top: 40px;
+        }
+        .testimonial-body {
+            text-align: center;
+        }
+
+        .testimonial-content {
+            text-align: left;
+            width: 230px;
+            height: 200px;
+            margin: 10px 10px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+            display: inline-block;
+        }
+
+        .testimonial-content h4 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <h1>Relap</h1>
+            <ul>
+                <li>Home</li>
+                <li>Features</li>
+                <li>Work</li>
+                <li>About</li>
+                <li>People</li>
+                <li>News</li>
+            </ul>
+            <div class="contact-us-button">
+                <p>Contact Us</p>
+            </div>
+        </nav>
+        <section class="content-header">
+            <div class="header-text">
+                <h1>Omnis <br> Voluptas</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever
+
+                    <div class="explore-button">
+                        <p>Explore</p>
+                    </div>
+            </div>
+            <div class="header-image">
+                <img src="images/banner_bg.png">
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery-header">
+                <div class="gallery-title">
+                    <p>Nisi ut alliquid</p>
+                    <h1>Ullam corporis suscipit</h1>
+                </div>
+                <p class="gallery-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                    a galley of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the</p>
+            </div>
+            <div class="gallery-content">
+                <ul>
+                    <li>Quis Autem</li>
+                    <li>Reprehenderit</li>
+                    <li>Volumptate</li>
+                    <li>Moestiae</li>
+                    <li>Consequatur</li>
+                </ul>
+                <div class="gallery-image">
+                    <img src="images/gallery_1.png">
+                </div>
+                <div class="gallery-image">
+                    <img src="images/gallery_2.png">
+                </div>
+                <div class="gallery-image">
+                    <img src="images/gallery_3.png">
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-image">
+                <img src="images/about_img.png">
+            </div>
+            <div class="about-text">
+                <p>Repellendus</p>
+                <h1>Temporibus quibusdam</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been
+                    the</p>
+            </div>
+        </section>
+
+        <section class="option">
+            <div class="option-header">
+                <h1>Fugiaat quo</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been</p>
+            </div>
+
+            <div class="option-content">
+                <div class="option-one">
+                    <img src="images/icon_1.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p>Enim ipsam voluptatem quia voumptas sit jashkjhdfk as </p>
+                </div>
+                <div class="option-one">
+                    <img src="images/icon_2.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p>Enim ipsam voluptatem quia voumptas sit jashkjhdfk as </p>
+                </div>
+                <div class="option-one">
+                    <img src="images/icon_3.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p>Enim ipsam voluptatem quia voumptas sit jashkjhdfk as </p>
+                </div>
+                <div class="option-one">
+                    <img src="images/icon_4.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p>Enim ipsam voluptatem quia voumptas sit jashkjhdfk as </p>
+                </div>
+                <div class="option-one">
+                    <img src="images/icon_5.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p>Enim ipsam voluptatem quia voumptas sit jashkjhdfk as </p>
+                </div>
+                <div class="option-one">
+                    <img src="images/icon_6.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p>Enim ipsam voluptatem quia voumptas sit jashkjhdfk as </p>
+                </div>
+            </div>
+
+            <section class="testimonial">
+                <div class="testimonial-header">
+                    <h2>Testimonial</h2>
+                    <p>gasdasgdgajksdajksdhkasdklasdlkasdlkasdashdkasdkasdkjashdklashdlasd</p>
+                </div>
+                <div class="testimonial-body">
+                    <div class="testimonial-content">
+                        <img src="images/profile_1.png" alt="">
+                        <p>Enim ipsam voluptatem quia voumptas sit jashk</p>
+                        <h4>Malin Quist</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <img src="images/profile_1.png" alt="">
+                        <p>Enim ipsam voluptatem quia voumptas sit jashk</p>
+                        <h4>Malin Quist</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <img src="images/profile_1.png" alt="">
+                        <p>Enim ipsam voluptatem quia voumptas sit jashk</p>
+                        <h4>Malin Quist</h4>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+</body>
+
+</html>
